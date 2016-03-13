@@ -26,8 +26,7 @@ vm.startGame = startGame;
 
  
   function makeComputerChoice(){
-       var index = Math.round(Math.random()*2);
-       vm.computerPlayer.currentSelectedChoice = vm.choices[index];
+       vm.computerPlayer.currentSelectedChoice = rockPaperScissorsService.getRandomChoice();
   }
 
 }
