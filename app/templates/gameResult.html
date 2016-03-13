@@ -1,15 +1,15 @@
- <div class="game-result">
-   <div>
-     <ul>
-     <li>wins: {{vm.player.wins}}</li>
-     <li>lost: {{vm.player.lost}}</li>
-     <li>ties: {{vm.player.ties}}</li>
-     </ul>
-   </div>
-   <div>
-     <img src="" ng-src="/images/{{vm.player.currentSelectedChoice}}.jpg" alt="{{vm.imageName}}"/>
-   </div>
-   <div data-ng-show="vm.matchResult === 0" class="result-win">Human wins</div>
-   <div data-ng-show="vm.matchResult === 1" class="result-win">Computer wins</div>
-   <div data-ng-show="vm.matchResult === -1" class="result-tie">Its a tie</div>
-  </div>
+<div class="game-result">
+    <div>
+        <ul>
+            <li>wins: {{vm.player.wins}}</li>
+            <li>lost: {{vm.player.lost}}</li>
+            <li>ties: {{vm.player.ties}}</li>
+        </ul>
+    </div>
+    <div>
+        <img src="" ng-src="/images/{{vm.player.currentSelectedChoice}}.jpg" alt="{{vm.imageName}}" />
+    </div>
+    <div data-ng-show="vm.matchResult === 0" class="result-win">Human wins</div>
+    <div data-ng-show="vm.matchResult === 1" class="result-win">Computer wins</div>
+    <div data-ng-show="vm.matchResult === -1" class="result-tie">Its a tie</div>
+</div>
