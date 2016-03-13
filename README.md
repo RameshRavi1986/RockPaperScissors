@@ -15,9 +15,8 @@
             vi) You can track the scores and results dynamically
     3. Code uses angular js and nodejs as a server.
     4. You can check the unit test coverage report on test/coverage/chrome../index.html 
+    ##unit testing
    
-   ## unit testing
-   ===
       1. Unit testing is written from scratch using jasmine and karma as a test runner.
       2. Reports are generated using karma-coverage.
       3. Go inside the test folder and run "karma start karma.conf.js"
