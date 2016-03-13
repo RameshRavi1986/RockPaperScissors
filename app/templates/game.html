@@ -1,0 +1,13 @@
+<div id="rockPaperScissors" class="content">
+ <section class="content-section">
+ <h2>Human</h2>
+ <button type="button" class="primary" data-ng-click="vm.startGame(0)">Rock</button>
+ <button type="button" class="primary" data-ng-click="vm.startGame(1)">Paper</button>
+ <button type="button" class="primary" data-ng-click="vm.startGame(2)">Scissors</button><br/>
+       <div data-game-result data-player="vm.humanPlayer" data-match-result="vm.matchResult" class="m-t-20"></div>
+  </section>
+ <section class="content-section">
+    <h2>Computer</h2>
+   <div data-game-result data-player="vm.computerPlayer" data-match-result="vm.matchResult" class="m-t-70"></div>
+ </section>
+</div>

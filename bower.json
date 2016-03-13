@@ -1,0 +1,22 @@
+{
+  "name": "RockPaperScissors",
+  "version": "0.0.1",
+  "homepage": "https://github.com/RameshRavi1986/angular-bootstrap-quizapp",
+  "authors": [
+    "Ramesh <ramtata@gmail.com>"
+  ],
+  "description": "Game for rock paper scissors",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.5.0",
+    "angular-mocks": "~1.5.0",
+    "angular-ui-router": "~0.2.18"
+  }
+}

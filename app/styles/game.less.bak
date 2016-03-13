@@ -1,0 +1,60 @@
+
+
+h1, h2{
+ text-align : center;
+}
+div {
+  box-sizing: border-box;
+}
+
+.content{
+  width: 100%;
+  margin:auto;
+
+  .content-section{
+    width:48%;   
+    text-align:center;
+    box-sizing:border-box;
+    height:500px;
+    float:left;
+    border:1px solid black;
+  }
+}
+
+.game-result{
+  .result{
+
+    font-size: 22px;   
+  }
+  
+  img{
+    width:200px;
+    height:200px;
+    max-width:100%;
+   }
+   .result-win{
+     color: green;
+     font-size:22px;
+   }
+   .result-tie{
+     color: grey;
+     font-size: 22px;
+   }
+   ul{
+     li {list-style-type:none;}
+   }
+
+}
+
+button{
+   color: white;   
+   padding:10px;
+   font-weight: bold;
+  
+  &.primary{
+     background-color: blue;
+     border : none;    
+   }
+}
+.m-t-20{margin-top:20px;}
+.m-t-70{margin-top:70px;}
