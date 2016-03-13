@@ -1,2 +1,5 @@
 # RockPaperScissors
-Two player game 
+==================
+
+Human vs computer
+++++++++++++++++
